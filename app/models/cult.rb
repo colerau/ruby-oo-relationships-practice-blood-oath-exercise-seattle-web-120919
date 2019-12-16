@@ -39,5 +39,23 @@ class Cult
     def followers #c3.followers
         bloodoaths.map { |bloodoath| bloodoath.follower }
     end 
+
+    # START OF ADVANCED METHODS 
+
+    def average_age
+        follower_ages = followers.map { |follower| follower.age }
+
+        average = (follower_ages.reduce(0) { |a, v| a + v } / follower_ages.count).to_f
+    end 
+
+    def my_followers_mottos
+        followers.map { |follower| follower.life_motto }
+    end 
+
+    def self.least_popular 
+        # I be strugglin over here 
+    end 
 end 
+
+
 
