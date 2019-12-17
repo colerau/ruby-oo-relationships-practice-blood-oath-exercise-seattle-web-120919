@@ -3,7 +3,7 @@ class BloodOath
 
     @@all = []
 
-    def initialize(cult, follower, initiation_date = 20191216)
+    def initialize(cult, follower, initiation_date = "20191216")
         @cult = cult 
         @follower = follower
         @initiation_date = initiation_date 

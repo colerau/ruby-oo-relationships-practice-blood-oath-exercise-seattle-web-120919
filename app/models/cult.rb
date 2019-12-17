@@ -53,9 +53,18 @@ class Cult
     end 
 
     def self.least_popular 
-        # I be strugglin over here 
+        hash = {} 
+        self.all.each do |cult|
+            hash[cult.name] = cult.followers.count 
+        end
+        hash.sort.first
     end 
 end 
+
+
+
+
+
 
 
 

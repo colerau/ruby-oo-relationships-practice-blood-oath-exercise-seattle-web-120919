@@ -25,16 +25,16 @@ f5 = Follower.new("Lacey", 44, "Oh boy, here I go cultin' again")
 
 # BLOODOATH
 # def initialize(cult, follower, initiation_date)
-b1 = BloodOath.new(c1, f2, 20190102)
-b2 = BloodOath.new(c2, f3, 20180203)
-b3 = BloodOath.new(c3, f2, 20170304)
-b4 = BloodOath.new(c4, f1, 20160405)
-b5 = BloodOath.new(c5, f2, 20170506)
-b6 = BloodOath.new(c3, f4, 20160607)
-b7 = BloodOath.new(c3, f5, 20150708)
-b8 = BloodOath.new(c2, f5, 20140809)
-b9 = BloodOath.new(c1, f5, 20130910)
-b10 = BloodOath.new(c1, f5, 20121221)
+b1 = BloodOath.new(c1, f2, "20190102")
+b2 = BloodOath.new(c2, f3, "20180203")
+b3 = BloodOath.new(c3, f2, "20170304")
+b4 = BloodOath.new(c4, f1, "20160405")
+b5 = BloodOath.new(c5, f2, "20170506")
+b6 = BloodOath.new(c3, f4, "20160607")
+b7 = BloodOath.new(c3, f5, "20150708")
+b8 = BloodOath.new(c2, f5, "20140809")
+b9 = BloodOath.new(c1, f5, "20130910")
+b10 = BloodOath.new(c1, f5, "20121221")
 
 binding.pry
 
